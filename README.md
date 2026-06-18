@@ -1,6 +1,4 @@
-anyways its a zip file. so.. you had to unzip spectral path tracer source code c++.zip
-
-you also need g++ 15.2.0 which is what am using.
+you need g++ 15.2.0 which is what am using.
 
 you should download https://www.msys2.org/ if your on windows
 
