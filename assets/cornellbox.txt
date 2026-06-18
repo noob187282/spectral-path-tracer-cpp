@@ -1,0 +1,13 @@
+# --- Cornell Box Style Room on the right ---
+obj cube pos 0 0 16 rot 0 0 0 scale 12 0.1 12 color 230 230 230 230 230 230 rough 1.0 //floor
+obj cube pos 0 12 16 rot 0 0 0 scale 12 0.1 12 color 230 230 230 230 230 230 rough 1.0 //roof
+obj cube pos 6 6 16 rot 0 0 0 scale 0.1 12 12 color 64 120 200 120 64 0 rough 1.0 //right wall
+obj cube pos 0 6 22 rot 0 0 0 scale 12 12 0.1 color 230 230 230 230 230 230 rough 1.0 //front wall
+obj cube pos -6 6 16 rot 0 0 0 scale 0.1 12 12 color 240 20 25 35 50 12 rough 1.0 //left wall
+
+obj cube pos -2 4 18 rot 0 20 0 scale 4 8 4 color 255 255 255 255 255 255 rough 0.001
+obj cube pos 2 2 14 rot 0 -20 0 scale 4 4 4 color 210 210 210 210 210 210 rough 1.0 specular 0.2 specularrough 0.1
+sky 0 0 0 0 0 0
+# --- Lights ---
+obj cube obj light pos 0 11.95 16 rot 0 0 0 scale 3 0.1 3 color 2800 2600 2400 2000 1600 2000 rough 0.0
+# -- available stuff obj_cube, obj_cube_checkered, obj_cube_light, obj_cube_fog, obj_cube_portal, obj_sphere, obj_sphere_checkered, obj_sphere_light, obj_sphere_fog, obj_sphere_portal

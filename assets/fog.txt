@@ -1,0 +1,29 @@
+# --- Cornell Box Style Room on the right ---
+
+obj cube pos 6 6 0 rot 0 0 0 scale 1 12 12 color 140 240 120 42 0 0 rough 1.0
+obj cube pos -6 6 0 rot 0 0 0 scale 1 12 12 color 240 120 25 0 0 25 rough 1.0
+
+# --- Lights ---
+obj pointlight pos 0 11 0 rot 0 0 0 scale 1 1 1 color 4000 4000 4000 4000 4000 4000 rough 0.0
+
+# --- Central and mid Distant Objects ---
+obj cylinder pos 0 3 40 rot 0 0 -45 scale 1 8 1 color 220 250 255 0 0 0 rough 0.05 thickness 0.1
+obj cylinder obj refract pos 0 3 40 rot 0 0 45 scale 1 8 1 color 220 250 255 255 255 255 rough 0.00 thickness 0.1 refractpass 1  ior 1.1
+obj sphere obj checkered pos -16 6 36 rot 0 0 0 scale 12 12 12 color 255 0 0 0 0 0 rough 1 specular 0.2 specularrough 0.01
+obj sphere obj checkered pos -16 15 36 rot 0 0 0 scale 8 8 8 color 200 200 200 200 200 200 rough 1 specular 0.2 specularrough 0.01
+obj sphere pos 16 6 36 rot 0 0 0 scale 12 12 12 color 250 250 250 250 250 250 rough 1.0 specular 1.0 specularrough 0
+obj cube pos 0 8 -64 rot 0 0 0 scale 16 16 1 color 255 255 255 255 255 255 rough 0.0
+
+# --- Large Floor and Structures ---
+obj cube obj checkered pos 0 -0.5 0 rot 0 0 0 scale 512 1 512 color 250 250 250 250 250 250 rough 1 specular 0.2 specularrough 0.2
+obj cube pos 28 12 24 rot 0 0 45 scale 1 36 36 color 12 12 32 64 255 12 rough 0.05
+obj sphere obj refract pos -12 4 12 rot 0.0 0.0 -45 scale 8 8 8 color 255 255 255 255 255 255 ior 1.4 refractpass 0.05  rough 0.0 rainbow 0.4
+obj sphere obj refract pos 0 2 -32 rot 0.0 0.0 -45 scale 4 4 4 color 255 255 255 255 255 255 thickness 1 refractpass 0.3  ior 1 rough 0.001 rainbow 0.01
+obj prism obj refract pos 12 7 12 rot -12 -40 22 scale 4 4 4 color 255 255 255 255 255 255 rough 0.0 refractpass 1.0 thickness 0.1 ior 1.4 rainbow 0.2
+
+# --- Portals ---
+obj cylinder obj portal pos 40 -0.45 -32 rot 0 45 0 scale 30 1 30 tpos 0 32 0 rough 0.0 color 255 255 255 255 255 255 
+obj sphere obj portal pos -32 6 -32 rot 0 0 0 scale 6 6 6 tpos 32 0 0 rough 0.0 color 255 255 255 255 255 255 
+# --- volumetrics ---
+obj cube obj fog pos 0 20 0 rot 0 0 0 scale 800 40 800 color 255 255 255 255 255 255 density 0.01 anisotropy 0.0 rayleigh 0.25 0.4 0.7 1.1 1.7 1.4
+sky 0 0 0 0 0 0

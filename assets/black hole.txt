@@ -1,0 +1,4 @@
+# --- Large Floor and Structures ---
+obj sphere obj bend pos 0 0 32 rot 0 0 0 scale 32 32 32 color 250 251 252 253 254 255 rough 0.0 ior 0.004 rainbow 0.0
+obj sphere obj fog obj light pos 0 0 32 rot 0 0 32 scale 32 0.1 32 color 1024 512 256 128 64 32 density 0.2
+sky 0 0 0 0 0 0

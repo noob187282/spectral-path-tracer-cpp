@@ -1,0 +1,15 @@
+
+obj cube pos 6 6 0 rot 0 0 0 scale 0.1 12 12 color 200 200 180 150 100 100 rough 1
+obj cube pos 32 6 12 rot 0 0 0 scale 0.1 12 24 color 200 200 180 150 100 100 rough 1
+obj cube pos -6 6 0 rot 0 0 0 scale 0.1 12 12 color 200 200 180 150 100 100 rough 1
+obj cube pos -24 6 -6 rot 0 0 0 scale 36 12 0.1 color 200 200 180 150 100 100 rough 1
+obj cube pos -0 12 0 rot 0 0 0 scale 128 0.1 128 color 200 200 180 150 100 100 rough 1
+obj cube pos 0 0 0 rot 0 0 0 scale 128 0.1 128 color 200 020 010 005 001 000 rough 1
+obj cube pos 24 6 -6 rot 0 0 0 scale 36 32 0.1 color 200 200 180 150 100 100 rough 1
+obj cube pos 12 6 32 rot 0 0 0 scale 0.1 32 32 color 200 200 180 150 100 100 rough 1
+obj cube pos -16 6 12 rot 0 0 0 scale 0.1 32 32 color 200 200 180 150 100 100 rough 1
+obj cube pos 0 6 32 rot 0 0 0 scale 36 12 0.1 color 200 200 180 150 100 100 rough 1
+obj cylinder pos 0 6 -24 rot 0 0 0 scale 12 12 12 color 200 200 180 150 100 100 rough 1
+obj sphere pos 0 2 -24 rot 0 0 0 scale 12.5 1 12.5 color 180 200 20 15 0 0 rough 0.2
+obj sphere pos 0 1 -24 rot 0 0 0 scale 12.5 1 12.5 color 180 200 20 15 0 0 rough 0.2
+sky 255 255 255 255 255 255

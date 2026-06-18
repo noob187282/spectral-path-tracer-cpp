@@ -1,0 +1,33 @@
+it all started when having anxiety with my friends and me leaving. i decided to get a new life program in sdl2
+but sdl3 was the new version so i installed
+but their is this document that made me an instant dev.
+it was the dev recommending me msys2 ucrt64 and installing gcc and then i started installing g++ or clang
+
+my first project was making a simple raymarching graphics in cpu. for a fun hobby.
+(would later turn into path marcher, path tracer then spectral path tracing) C++ not c anymore
+original directory C:\Users\User\Downloads\code\c\untitled pathmarcher
+
+until the dev realized he have a freewill to do with my projects. breaking the equations into curiosity.
+
+9/23/2025 11:08 PM 
+	started to created a raymarcher code. in C
+	its also computed on cpu. not gpu so its much slower :(
+
+11/25/2025 4:35 am 
+	getting more progress from
+	raymarcher until it turned into path marcher
+	C:\Users\User\Downloads\code\c\untitled pathmarch
+
+3/17/2026 march 17 2026 9:26 pm
+	upgraded my path tracer to have spectral path tracer.
+
+5/3/2026 2:08 pm
+just as i think i was finished making the c++ spectral path tracer.
+realized there is a ton of bug object grabbing behind object depending on their array if they're firster than the other
+and auto exposure is not working properly and crashing
+
+5/19/2026
+	made my spectral path tracer do multiple importance sampling. RTX inside spectral path tracer for speed
+	
+6/12/2026 1:23 AM
+updated my 6 bin spectral path tracer to 12 bin spectral path tracer

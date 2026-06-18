@@ -1,0 +1,7 @@
+# --- Lights ---
+obj cube obj spotlight pos 0 5 28 rot -90 180 0 scale 10 1 10 color 12000 12000 12000 12000 12000 12000 rough 0.0
+# --- Large Floor and Structures ---
+obj cube obj checkered pos 0 0 16 rot 0 0 0 scale 128 1 128 color 200 200 200 200 200 200 rough 1.0 specular 0.2 specularrough 0.001
+obj prism obj refract pos 0 3 10 rot 180 90 0 scale 8 8 8 color 250 250 250 250 250 250 rough 0 thickness 1 ior 0.01 rainbow 80 refractpass 1
+
+sky 0 0 0 0 0 0

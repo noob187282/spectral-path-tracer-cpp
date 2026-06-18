@@ -1,0 +1,10 @@
+# --- Large Floor and Structures ---
+obj cube obj checkered pos 0 0 0 rot 0 0 0 scale 1024 1 1024 color 255 255 255 255 255 255 rough 1 specular 0
+obj cube pos 0 1 10 scale 5 1 1 color 255 0 0 0 0 0 rough 1
+obj cube pos 0 1.5 11 scale 5 2 1 color 255 255 255 0 0 0 rough 1
+obj cube pos 0 2 12 scale 5 3 1 color 0 0 255 0 0 0 rough 1
+obj cube pos 0 2.5 13 scale 5 4 1 color 0 0 255 255 555 0 rough 1
+obj cube pos 0 3 14 scale 5 5 1 color 0 0 0 0 255 0 rough 1
+obj cube pos 0 3.5 15 scale 5 6 1 color 0 0 0 0 255 255 rough 1
+obj pointlight pos -12 1 12 scale 0 0 0 color2 255 255 255 255 255 255 255 255 255 255 255 255
+sky 0 0 0 0 0 0

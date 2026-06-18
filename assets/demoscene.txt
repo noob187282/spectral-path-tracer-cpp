@@ -1,0 +1,32 @@
+# --- Cornell Box Style Room on the right ---
+obj cube obj checkered pos 60 0 0 rot 0 0 0 scale 12 1 32 color 240 240 136 128 128 200 rough 1.0
+obj cube obj checkered pos 60 12 0 rot 0 0 0 scale 12 1 32 color 240 240 136 128 128 200 rough 1.0
+obj cube pos 66 6 0 rot 0 0 0 scale 1 12 32 color 140 240 120 42 0 0 rough 1.0
+obj cube pos 54 6 0 rot 0 0 0 scale 1 12 32 color 240 120 25 0 0 25 rough 1.0
+
+# --- Lights ---
+obj cube obj light pos 60 11.5 0 rot 0 0 0 scale 12 0.55 32 color 400 400 400 400 400 400 rough 0.0
+obj pointlight pos 4 6 -24 rot 0 0 45 scale 12 12 12 color 500 500 500 500 500 500 rough 0.5
+obj pointlight pos -32 16 0 rot 32 60 80 scale 8 8 8 color 1280 1280 1280 1280 1280 1280 rough 1.0
+
+# --- Central and mid Distant Objects ---
+obj cube obj refract pos -12 12 -24 rot 0 0 0 scale 1 24 24 color 0 128 255 128 0 0 rough 0.001 ior 1.333
+obj cube obj refract pos 12 12 -24 rot 0 0 0 scale 1 24 24 color 128 255 128 0 0 0 rough 0.001 ior 1.333
+obj cylinder pos 0 3 40 rot 0 90 -45 scale 1 8 1 color2 12 128 255 10 0 0 0 0 0 0 0 0 rough 0.01 thickness 0.04
+obj cylinder obj refract pos 0 3 40 rot 0 90 45 scale 1 8 1 color 220 250 255 255 255 255 rough 0.00 thickness 0.1 refractpass 1 ior 1.1
+obj sphere obj checkered pos -16 6 36 rot 0 0 0 scale 12 12 12 color2 255 0 0 0 0 0 0 0 0 0 0 0 rough 1 specular 0.2 specularrough 0.01
+obj sphere obj checkered pos -16 15 36 rot 0 0 0 scale 8 8 8 color 200 200 200 200 200 200 rough 1 specular 1 specularrough 0.01
+obj sphere pos 16 6 36 rot 0 0 0 scale 12 12 12 color 250 250 250 250 250 250 rough 1.0 specular 1.0 specularrough 0
+obj cube pos 0 8 -64 rot 0 0 0 scale 16 16 1 color 255 255 255 255 255 255 rough 0.0
+
+# --- Large Floor and Structures ---
+obj cube obj checkered pos 0 -0.5 0 rot 0 0 0 scale 512 1 512 color 250 250 250 250 250 250 rough 1 specular 0.2 specularrough 0.01
+obj sphere obj refract pos -12 4 12 rot 0.0 0.0 -45 scale 8 8 8 color 255 255 255 255 255 255 ior 1.0 refractpass 0.2  rough 0.0 rainbow 1
+obj sphere obj refract pos -8 4 -32 rot 0.0 0.0 -45 scale 8 8 8 color 255 255 255 255 255 255 thickness 1 refractpass 0.3  ior 1 rough 0.001 rainbow 0.01
+obj prism obj refract pos 10 7 12 rot 0 0 0 scale 12 12 12 color 255 255 255 255 255 255 rough 0.0 refractpass 1.0 thickness 0.1 ior 1.4 rainbow 0.2
+
+# --- Portals and volumetrics ---
+obj cylinder obj portal pos 40 -0.45 -32 rot 0 45 0 scale 30 1 30 tpos 0 32 0 rough 0.0 color 255 255 255 255 255 255 
+obj sphere obj portal pos -32 6 -32 rot 0 0 0 scale 6 6 6 tpos 32 0 0 rough 0.0 color 255 255 255 255 255 255 
+
+sky 0 0 0 0 0 0
